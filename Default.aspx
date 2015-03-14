@@ -18,8 +18,7 @@
 
     <Columns>
         <asp:ImageField DataImageUrlField="Value" ControlStyle-Height="500" ControlStyle-Width="500" />
-         <asp:BoundField DataField="UnitPrice" HeaderText="PricePerUnit" ReadOnly="true" SortExpression="UnitPrice" />
-        </Columns>
+    </Columns>
 	</asp:GridView>
 
 </body>
