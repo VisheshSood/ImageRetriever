@@ -16,5 +16,6 @@ namespace ImageRetriever {
 		protected System.Web.UI.HtmlControls.HtmlForm form1;
 		protected System.Web.UI.WebControls.FileUpload FileUpLoad1;
 		protected System.Web.UI.WebControls.Button UploadBtn;
+		protected System.Web.UI.WebControls.GridView GridView1;
 	}
 }
