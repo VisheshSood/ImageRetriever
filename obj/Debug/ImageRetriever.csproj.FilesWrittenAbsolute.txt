@@ -1,0 +1,5 @@
+/Users/VisheshSood/Projects/ImageRetriever/ImageRetriever/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/VisheshSood/Projects/ImageRetriever/ImageRetriever/bin/ImageRetriever.dll.mdb
+/Users/VisheshSood/Projects/ImageRetriever/ImageRetriever/bin/ImageRetriever.dll
+/Users/VisheshSood/Projects/ImageRetriever/ImageRetriever/obj/Debug/ImageRetriever.dll
+/Users/VisheshSood/Projects/ImageRetriever/ImageRetriever/obj/Debug/ImageRetriever.dll.mdb
