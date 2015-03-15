@@ -57,7 +57,7 @@ namespace ImageRetriever {
 				              select f).First ();
 				myFile.Delete ();
 				Array.ForEach(Directory.GetFiles("Image/Extra/"), File.Delete);
-				Directory.
+
 				Response.Redirect (Request.RawUrl);
 			}
 		}

@@ -19,7 +19,6 @@ namespace ImageRetriever {
 		protected System.Web.UI.WebControls.GridView GridView1;
 		protected System.Web.UI.WebControls.ImageButton Coordinate;
 		protected System.Web.UI.WebControls.Label Label1;
-		protected string lastFileName;
 
 	}
 }
