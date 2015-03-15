@@ -18,7 +18,8 @@ namespace ImageRetriever {
 		protected System.Web.UI.WebControls.Button UploadBtn;
 		protected System.Web.UI.WebControls.GridView GridView1;
 		protected System.Web.UI.WebControls.ImageButton Coordinate;
-		protected System.Windows.Forms.Label Label1;
+		protected System.Web.UI.WebControls.Label Label1;
+		protected string lastFileName;
 
 	}
 }

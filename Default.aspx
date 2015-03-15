@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head runat="server">
-	<title>RGB Retriever</title>
+	<title>Co-Ordinate Retriever</title>
 
 	<script language="JavaScript">
 	function point_it(event){
@@ -13,12 +13,13 @@
 	document.getElementById("cross").style.visibility = "visible" ;
 	document.pointform.form_x.value = pos_x;
 	document.pointform.form_y.value = pos_y;
-}
+	}
 </script>
 </head>
 <body>
 <center>
-<h1>Image RGB Retriever</h1>
+<h1>Image Co-Ordinate Retriever</h1>
+
 	<br> <h3 align="center"> Please Enter A File</h3> </br>
 
 	 <form id="form1" runat="server">
@@ -26,11 +27,14 @@
 		<asp:Button id="UploadBtn" Text="Upload File" OnClick="UploadBtn_Click" runat="server" Width="105px" />	
 		<asp:Button id="DeleteBtn" Text="Delete Folder" OnClick="DeleteBtn_Click" runat="server" Width="105px" />
 		<asp:Button id="DeleteLst" Text="Delete Last" OnClick="DeleteLst_Click" runat="server" Width="105px" />
+
+		<br>
+
 	</form> 
 	<hr />
 
 	<form name="pointform" method="post">
-	<div id="pointer_div" onclick="point_it(event)" style = "background-image:url('~/Image/2.jpg');width:250px;height:250px;repeat">
+	<div id="pointer_div" onclick="point_it(event)" style = "background-image:url('~/Image/Extra/2.jpg');width:250px;height:250px;repeat">
 	<img src="" id="cross" style="position:relative;visibility:hidden;z-index:2;"></div>
 
 	You pointed on x = <input type="text" name="form_x" size="4" /> - y = <input type="text" name="form_y" size="4" />
