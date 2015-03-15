@@ -6,6 +6,6 @@ This simple program allows you to add as many images (jpg/jpeg format) of size l
 
 Currently working on getting last file to show up again after deleting last function. Time restraints have kept this out of scope for now.
 
-This was made through HTTP and C# on Xamarin Studio.
+This was made through HTTP and C# on Xamarin Studio. It displays a brief assortment of my skills in programming using C#, Javascript, HTML and ASP.NET. 
 
 Any issues regarding opening files, please contact me at vsood@uw.edu
